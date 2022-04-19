@@ -1,0 +1,41 @@
+'''
+
+                            Online Python Compiler.
+                Code, Compile, Run and Debug python program online.
+Write your code in this editor and press "Run" button to execute it.
+
+'''
+
+print("INF 1511 Assignment 1")
+print("")
+
+print("Question 1: ")
+distance=10 # int variable distance
+time=5 #int varibale time
+speed=distance/time
+print("The speed today is "+ str(speed)+ " Km/h.")
+print("")
+
+print("Question 2: ")
+distance=10.0 # float variable distance
+time=5.5 #flot varibale time
+speed=distance/time
+print("The speed today is "+ str(speed)+ " Km/h.")
+print("")
+
+
+print("Question 3")
+myName="Imraan Jacobs"
+theDay= "Thursday"
+print("Hello "+myName+ " today is "+ theDay)
+
+print("Question 4:")
+nMasks=45
+nStudents=25
+remain=nMasks%nStudents
+masks4stud=nMasks//nStudents
+print("There are "+str(nStudents)+ " students and "+ str(nMasks)+ " masks. Each student gets "+ str(masks4stud) +  " and "+ str(remain)+ " remain")
+
+
+
+
